@@ -210,6 +210,8 @@ Private Sub Convert_to_VB_Click()
         VB_line = VB_line & "   f$(" & u & ") = " & Chr(34) & Mid(VBHEX, i, step_line) & Chr(34) & vbCrLf
     Next i
     
+    VB_text = VB_text & "Attribute VB_Name = ""tini"""
+    VB_text = VB_text & vbCrLf
     VB_text = VB_text & "Sub Main()" & vbCrLf
     VB_text = VB_text & vbCrLf
     VB_text = VB_text & "   Dim f$(" & u & ")" & vbCrLf

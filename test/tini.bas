@@ -1,3 +1,5 @@
+Attribute VB_Name = "tini"
+
 Sub Main()
 
    Dim f$(469)
